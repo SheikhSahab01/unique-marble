@@ -1,0 +1,36 @@
+.marble-container{
+    height: 80vh;
+    width: 100%;
+    background-image: url("../assets/mrbl.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.marble-wrapper{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.4), rgba(225, 225, 225, 0.1));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.marble-wrapper h1,.marble-wrapper p {
+    color: #fff;
+    margin: 0;
+    font-weight: 300;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+.marble-wrapper p {
+    letter-spacing: 3px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .marble-wrapper h1, p {
+        font-size: 2.2rem;
+    }
+}

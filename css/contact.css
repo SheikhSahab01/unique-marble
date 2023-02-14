@@ -1,0 +1,36 @@
+.contact-container{
+    height: 80vh;
+    width: 100%;
+    background-image: url("https://img.freepik.com/free-photo/negotiating-business-image-businesswomen-handshake-happy-with-work-business-woman-she-is-enjoying-with-her-workmate-handshake-gesturing-people-connection-deal-concept_1253-800.jpg?w=1380&t=st=1673701687~exp=1673702287~hmac=314b9ba37a89fd29710ab8e83e1d1933294ac26cc1b387252dfb25f0eb0b8b05");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-wrapper{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.4), rgba(225, 225, 225, 0.1));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-wrapper h1,.contact-wrapper p {
+    color: #fff;
+    margin: 0;
+    font-weight: 300;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+.contact-wrapper p {
+    letter-spacing: 3px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-wrapper h1, p {
+        font-size: 2.2rem;
+    }
+}
